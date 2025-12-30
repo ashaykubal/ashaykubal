@@ -9,9 +9,13 @@ Currently focused on implementing automated, effective Context Engineering & tok
 
 ## What I'm Working On
 
-**[lazyptc-mcp](https://github.com/ashaykubal/lazyptc-mcp)** — Reduce context bloat in Claude Code induced by MCP server tool definitions & results using deferred tool definition loading & programmatic tool calling.
+**[lazyptc-mcp](https://github.com/ashaykubal/lazyptc-mcp)**
 
-**CLEAR Framework** *(coming soon)* — A context engineering framework for long-running agentic coding tasks. Session memory, knowledge capture, workpackage tracking—the stuff Claude forgets, automated.
+Reduce context bloat in Claude Code induced by MCP server tool definitions & results using deferred tool definition loading & programmatic tool calling.
+
+**CLEAR Framework** *(coming soon)* 
+
+A context engineering framework for long-running agentic coding tasks. Session memory, knowledge capture, workpackage tracking - the stuff Claude forgets, automated.
 
 ## Professional Experience
 
