@@ -9,11 +9,31 @@ By day, I build Enterprise products in the AI/ML, Search & Applied Data & Analyt
 
 Currently focused on implementing automated, effective Context Engineering & token usage optimization techniques for AI agents. 
 
-## What I'm Working On
+## My Public Repos
 
-**[lazyptc-mcp](https://github.com/ashaykubal/lazyptc-mcp)**
+**[Essential Agents & Skills](https://github.com/ashaykubal/essential-agents-skills)**
 
-Reduce context bloat in Claude Code induced by MCP server tool definitions & results using deferred tool definition loading & programmatic tool calling.
+Production-grade agents and skills for AI-assisted development. These tools enforce code quality, catch test suite problems, validate assets against standards, and improve multi-agent workflows.
+
+## What I'm Currently Working On (Private Repos)
+
+**[The Bulwark](https://github.com/ashaykubal/the-bulwark)**
+
+AI coding agents suffer from fundamental quality issues:
+
+1. **Entropy Drift**: Code quality degrades as context fills and complexity increases
+2. **Semantic vs Engineering Compliance**: Agents satisfy requests literally but fail engineering requirements
+3. **Self-Review Bias**: Agents cannot objectively review code they generated in the same context
+4. **Mock-Heavy Testing**: Agents write tests that verify mocks, not actual system behavior
+5. **Fix-Declare-Done Pattern**: Fixes declared complete without verification
+
+This led to the conception of "The Bulwark", a Claude Code plugin that enforces "Defense-in-Depth" quality governance using:
+
+- **Hooks**: Deterministic enforcement via PostToolUse (Exit 2 blocking)
+- **Sub-Agents**: Isolated context specialists with structured output
+- **Skills**: Progressive disclosure of heuristics and patterns
+- **Pipeline Orchestration**: F# pipe syntax for complex workflows
+- **`just`**: Deterministic command interface with log-based output
 
 **CLEAR Framework** *(coming soon)* 
 
