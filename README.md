@@ -11,13 +11,7 @@ Currently focused on implementing automated, effective Context Engineering & tok
 
 ## My Public Repos
 
-**[Essential Agents & Skills](https://github.com/ashaykubal/essential-agents-skills)**
-
-Production-grade agents and skills for AI-assisted development. These tools enforce code quality, catch test suite problems, validate assets against standards, and improve multi-agent workflows.
-
-## What I'm Currently Working On (Private Repos)
-
-**[The Bulwark](https://github.com/ashaykubal/the-bulwark)**
+**[The Bulwark](https://github.com/QBall-Inc/the-bulwark)**
 
 AI coding agents suffer from fundamental quality issues:
 
@@ -34,6 +28,12 @@ This led to the conception of "The Bulwark", a Claude Code plugin that enforces 
 - **Skills**: Progressive disclosure of heuristics and patterns
 - **Pipeline Orchestration**: F# pipe syntax for complex workflows
 - **`just`**: Deterministic command interface with log-based output
+
+**[Essential Agents & Skills](https://github.com/ashaykubal/essential-agents-skills)**
+
+Production-grade agents and skills for AI-assisted development. These tools enforce code quality, catch test suite problems, validate assets against standards, and improve multi-agent workflows. Most of these agents and skills are also offered by The Bulwark plugin.
+
+## What I'm Currently Working On (Private Repos)
 
 **CLEAR Framework** *(coming soon)* 
 
